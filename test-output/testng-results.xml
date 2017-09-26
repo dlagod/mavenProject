@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LoginSuite" duration-ms="7837" started-at="2017-09-26T12:28:22Z" finished-at="2017-09-26T12:28:30Z">
+    <groups>
+      <group name="grupo.login.ok">
+        <method signature="Login.loginOK()[pri:0, instance:es.telefonica.Login@2c43caa4]" name="loginOK" class="es.telefonica.Login"/>
+      </group> <!-- grupo.login.ok -->
+    </groups>
+    <test name="Login" duration-ms="7837" started-at="2017-09-26T12:28:22Z" finished-at="2017-09-26T12:28:30Z">
+      <class name="es.telefonica.Login">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:es.telefonica.Login@2c43caa4]" name="setUp" is-config="true" duration-ms="4813" started-at="2017-09-26T14:28:22Z" finished-at="2017-09-26T14:28:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginOK()[pri:0, instance:es.telefonica.Login@2c43caa4]" name="loginOK" duration-ms="2656" started-at="2017-09-26T14:28:27Z" finished-at="2017-09-26T14:28:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginOK -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:es.telefonica.Login@2c43caa4]" name="tearDown" is-config="true" duration-ms="367" started-at="2017-09-26T14:28:29Z" finished-at="2017-09-26T14:28:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- es.telefonica.Login -->
+    </test> <!-- Login -->
+  </suite> <!-- LoginSuite -->
+</testng-results>
